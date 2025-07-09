@@ -1,5 +1,5 @@
 // src/router/index.ts o index.js
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 
 import Home from '@/views/Home.vue' // Aquí pondrás LandingIntro dentro
 import AppLayout from '@/layouts/AppLayout.vue'
@@ -26,7 +26,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes
 })
 
