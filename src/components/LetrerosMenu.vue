@@ -18,9 +18,9 @@ import { RouterLink, useRouter } from 'vue-router';
 const router = useRouter()
 
 const cartulinas = [
-  { titulo: 'Sobre nosotros', bg: '/img/menu/cartulina-fucsia.png', ruta: '/sobre-nosotros' },
-  { titulo: 'Productos y servicios', bg: '/img/menu/cartulina-naranja.png', ruta: '/productos-y-servicios' },
-  { titulo: 'Contáctanos', bg: '/img/menu/cartulina-amarillo-f.png', ruta: '/contacto' }
+  { titulo: 'Sobre nosotros', bg: './img/menu/cartulina-fucsia.png', ruta: '/sobre-nosotros' },
+  { titulo: 'Productos y servicios', bg: './img/menu/cartulina-naranja.png', ruta: '/productos-y-servicios' },
+  { titulo: 'Contáctanos', bg: './img/menu/cartulina-amarillo-f.png', ruta: '/contacto' }
 ]
 </script>
 

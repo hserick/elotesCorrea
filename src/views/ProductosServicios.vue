@@ -36,15 +36,15 @@ import ProductoCard from '../components/ProductoCard.vue'
 import Footer from '@/components/Footer.vue'
 
 const productos = [
-  { nombre: 'Esquites con tuétano', descripcion: 'Maíz tierno con tuétano dorado, mayonesa, queso y salsa al gusto.', imagen: '/img/productos/esquites.jpg'},
-  { nombre: 'Esquites con suadero', descripcion: 'Maíz tierno con tuétano dorado, mayonesa, queso y salsa al gusto.', imagen: '/img/productos/esquites.jpg'},
-  { nombre: 'Esquites tradicionales', descripcion: 'Maíz tierno con tuétano dorado, mayonesa, queso y salsa al gusto.', imagen: '/img/productos/esquites.jpg'},
-  { nombre: 'Esquites LOKO', descripcion: 'Maíz tierno con tuétano dorado, mayonesa, queso y salsa al gusto.', imagen: '/img/productos/esquites.jpg'},
-  { nombre: 'Dorilokos', descripcion: 'Doritos bañados en cueritos, cacahuates, gomitas, salsas y más locura.', imagen: '/img/productos/esquites.jpg'},
-  { nombre: 'Elotes hervidos', descripcion: 'Maíz tierno con tuétano dorado, mayonesa, queso y salsa al gusto.', imagen: '/img/productos/esquites.jpg'},
-  { nombre: 'Elotes asados', descripcion: 'Maíz tierno con tuétano dorado, mayonesa, queso y salsa al gusto.', imagen: '/img/productos/esquites.jpg'},
-  { nombre: 'Elotes con mayonesa y queso', descripcion: 'Maíz tierno con tuétano dorado, mayonesa, queso y salsa al gusto.', imagen: '/img/productos/esquites.jpg'},
-  { nombre: 'Tostiesquites', descripcion: 'Maíz preparado servido sobre Tostitos, con topping a elegir.', imagen: '/img/productos/esquites.jpg'},
+  { nombre: 'Esquites con tuétano', descripcion: 'Maíz tierno con tuétano dorado, mayonesa, queso y salsa al gusto.', imagen: './img/productos/esquites.jpg'},
+  { nombre: 'Esquites con suadero', descripcion: 'Maíz tierno con tuétano dorado, mayonesa, queso y salsa al gusto.', imagen: './img/productos/esquites.jpg'},
+  { nombre: 'Esquites tradicionales', descripcion: 'Maíz tierno con tuétano dorado, mayonesa, queso y salsa al gusto.', imagen: './img/productos/esquites.jpg'},
+  { nombre: 'Esquites LOKO', descripcion: 'Maíz tierno con tuétano dorado, mayonesa, queso y salsa al gusto.', imagen: './img/productos/esquites.jpg'},
+  { nombre: 'Dorilokos', descripcion: 'Doritos bañados en cueritos, cacahuates, gomitas, salsas y más locura.', imagen: './img/productos/esquites.jpg'},
+  { nombre: 'Elotes hervidos', descripcion: 'Maíz tierno con tuétano dorado, mayonesa, queso y salsa al gusto.', imagen: './img/productos/esquites.jpg'},
+  { nombre: 'Elotes asados', descripcion: 'Maíz tierno con tuétano dorado, mayonesa, queso y salsa al gusto.', imagen: './img/productos/esquites.jpg'},
+  { nombre: 'Elotes con mayonesa y queso', descripcion: 'Maíz tierno con tuétano dorado, mayonesa, queso y salsa al gusto.', imagen: './img/productos/esquites.jpg'},
+  { nombre: 'Tostiesquites', descripcion: 'Maíz preparado servido sobre Tostitos, con topping a elegir.', imagen: './img/productos/esquites.jpg'},
 ]
 
 const servicios = [

@@ -29,7 +29,7 @@ const mostrar = ref(false)
 
 <style scoped>
 .producto-card {
-  background-image: url('/img/menu/cartulina-amarillo-f.png');
+  background-image: url('./img/menu/cartulina-amarillo-f.png');
   background-size: cover;
   background-position: center;
   border-radius: 12px;
