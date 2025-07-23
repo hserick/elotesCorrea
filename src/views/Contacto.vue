@@ -12,10 +12,10 @@
 
       <!-- Información de contacto -->
       <section class="space-y-4 text-gray-800 text-base">
-        <p><strong>📍 Dirección:</strong> Calle Sabrosura #123, Ciudad del Antojo, México</p>
-        <p><strong>📞 Teléfono:</strong> 55 1234 5678</p>
-        <p><strong>📧 Correo:</strong> <a href="mailto:contacto@elotescorrea.mx" class="text-green-700 hover:underline">contacto@elotescorrea.mx</a></p>
-        <p><strong>🕒 Horarios:</strong> Lunes a domingo, 5:00 p.m. – 11:00 p.m.</p>
+        <p><strong>📍 Dirección:</strong> Mercado de Jamaica Vive, local 26, Ciudad de México, CP 15800, Venustiano Carranza.</p>
+        <p><strong>📞 Teléfono:</strong> 55 8245 3272</p>
+        <p><strong>📧 Correo:</strong> <a href="mailto:acorreasegundo@gmail.com" class="text-green-700 hover:underline">acorreasegundo@gmail.com</a></p>
+        <p><strong>🕒 Horarios:</strong> Martes a domingo, 8:00 a.m. – 02:00 a.m.</p>
       </section>
 
       <!-- Mapa de ubicación -->
@@ -23,7 +23,7 @@
         <h3 class="text-2xl font-bold text-green-700 mb-4 text-center">Encuéntranos</h3>
         <div class="rounded-lg overflow-hidden shadow-md">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.0862132393333!2d-99.16194638497748!3d19.438089986881576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff5684694251%3A0xabc123456789def0!2sTu%20Ubicaci%C3%B3n%20de%20Elotes!5e0!3m2!1ses!2smx!4v1681234567890"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235.19534744090498!2d-99.12380686907728!3d19.406980220383783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff006d2504b7%3A0xdad6bcc32e05af2d!2sMercado%20de%20Jamaica!5e0!3m2!1ses!2smx!4v1753250805286!5m2!1ses!2smx"
             width="100%"
             height="300"
             style="border:0;"
@@ -37,11 +37,11 @@
       <section>
         <h3 class="text-2xl font-bold text-green-700 mb-4 text-center">Síguenos en redes</h3>
         <div class="flex flex-wrap gap-4 justify-center text-green-800 text-lg">
-          <a href="https://www.facebook.com/ElotesCorrea" target="_blank" class="hover:text-green-600">📘 Facebook</a>
-          <a href="https://www.tiktok.com/@elotescorrea" target="_blank" class="hover:text-green-600">🎵 TikTok</a>
-          <a href="https://www.instagram.com/elotescorrea" target="_blank" class="hover:text-green-600">📷 Instagram</a>
-          <a href="https://wa.me/5215572250951" target="_blank" class="hover:text-green-600">💬 WhatsApp</a>
-          <a href="mailto:contacto@elotescorrea.mx" class="hover:text-green-600">✉️ E-mail</a>
+          <a href="https://www.facebook.com/people/Elotes-Correa/100057527645810/" target="_blank" class="hover:text-green-600">📘 Facebook</a>
+          <!-- <a href="https://www.tiktok.com/@elotescorrea" target="_blank" class="hover:text-green-600">🎵 TikTok</a>
+          <a href="https://www.instagram.com/elotescorrea" target="_blank" class="hover:text-green-600">📷 Instagram</a> -->
+          <a href="https://wa.me/525582453272" target="_blank" class="hover:text-green-600">💬 WhatsApp</a>
+          <a href="mailto:acorreasegundo@gmail.com" class="hover:text-green-600">✉️ E-mail</a>
         </div>
       </section>
     </main>

@@ -21,7 +21,7 @@
 .elote {
   width: 120px;
   height: auto;
-  animation: girar 1.2s linear infinite;
+  animation: girar 1.5s linear infinite;
 }
 
 .mensaje {

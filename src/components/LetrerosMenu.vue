@@ -81,9 +81,9 @@ const cartulinas = [
 
 /* ✨ Aplicación de animación inicial */
 .animacion-inicial {
-  animation: caer 0.8s ease-out forwards;
+  animation: caer 2s ease-out forwards;
   opacity: 0;
-  transform: translateY(-60px);
+  transform: translateY(-600px);
 }
 
 /* 🖼️ Fondo visual con animación de tambaleo */

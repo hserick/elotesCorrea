@@ -15,7 +15,7 @@
     <img
       src="/img/elote-mascota.png"
       alt="Elotes Correa"
-      class="absolute w-32 md:w-40 transition-all duration-1000 ease-in-out z-30"
+      class="absolute w-32 md:w-40 transition-all duration-1500 ease-in-out z-30"
       :class="logoCentrado ? 'top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2' : 'top-6 left-15 scale-75'"
       @transitionend="mostrarTexto = true"
     />
@@ -34,7 +34,7 @@ const mostrarTexto = ref(false)
 onMounted(() => {
   setTimeout(() => {
     logoCentrado.value = false
-  }, 2500) // esperar antes de mover logo
+  }, 500) // esperar antes de mover logo
 })
 </script>
 
