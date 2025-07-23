@@ -95,12 +95,12 @@ const opiniones = ref([
   {
     usuario: 'María G.',
     comentario: '¡Los mejores elotes que he probado! Siempre vuelvo por más.',
-    imagen: '/clientes/maria.jpg',
+    imagen: './img/galeria/prefil-cliente.png',
   },
   {
     usuario: 'Luis R.',
     comentario: 'Atención excelente y sabor inigualable.',
-    imagen: '/clientes/luis.jpg',
+    imagen: './img/galeria/prefil-cliente.png',
   },
 ])
 
