@@ -29,9 +29,7 @@ const mostrar = ref(false)
 
 <style scoped>
 .producto-card {
-  background-image: url('./img/menu/cartulina-amarillo-f.png');
-  background-size: cover;
-  background-position: center;
+  
   border-radius: 12px;
   padding: 1rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);

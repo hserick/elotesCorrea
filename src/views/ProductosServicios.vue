@@ -6,6 +6,7 @@
   <h2 class="text-3xl font-bold text-green-700 mb-6 text-center">Nuestros productos</h2>
   <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
     <ProductoCard
+      style="background-image: url('./img/menu/cartulina-amarillo-f.png'); background-size: cover; background-position: center;"
       v-for="(producto, i) in productos"
       :key="i"
       :nombre="producto.nombre"
@@ -20,7 +21,7 @@
         <h2 class="text-3xl font-bold text-green-700 mb-6 text-center">Nuestros servicios</h2>
         <div class="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
           <div v-for="servicio in servicios" :key="servicio" class="bg-white p-6 rounded-lg shadow-md text-center">
-            <span class="text-2xl text-green-600 font-bold block mb-2">🌟</span>
+            <span class="text-2xl text-green-600 font-bold block mb-2">🌽</span>
             <p class="text-lg text-gray-800 font-medium">{{ servicio }}</p>
           </div>
         </div>

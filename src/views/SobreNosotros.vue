@@ -31,6 +31,51 @@
               <span class="font-semibold text-green-600">{{ opinion.usuario }}</span>
             </div>
           </SwiperSlide>
+
+           <!-- Slide con el Reel de Facebook -->
+      <SwiperSlide>
+        <div class="reel-slide">
+          <iframe
+            src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1703370886749359%2F&show_text=true&width=267&t=0"
+            width="267"
+            height="591"
+            style="border:none;overflow:hidden"
+            scrolling="no"
+            frameborder="0"
+            allowfullscreen="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+          ></iframe>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div class="reel-slide">
+          <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F813467323835042%2F&show_text=true&width=267&t=0" 
+          width="267" 
+          height="591" 
+          style="border:none;
+          overflow:hidden" 
+          scrolling="no" 
+          frameborder="0" 
+          allowfullscreen="true" 
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" 
+          allowFullScreen="true">
+        </iframe>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div class="reel-slide">
+          <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F912115006524800%2F&show_text=true&width=267&t=0" 
+          width="267" 
+          height="591" 
+          style="border:none;
+          overflow:hidden" 
+          scrolling="no" 
+          frameborder="0" 
+          allowfullscreen="true" 
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" 
+          allowFullScreen="true"></iframe>
+        </div>
+      </SwiperSlide>
         </Swiper>
       </section>
 
@@ -72,9 +117,9 @@
         </transition>
       </section>
     </main>
-
     <Footer />
   </div>
+ 
 </template>
 
 <script setup>
@@ -95,12 +140,12 @@ const opiniones = ref([
   {
     usuario: 'María G.',
     comentario: '¡Los mejores elotes que he probado! Siempre vuelvo por más.',
-    imagen: './img/galeria/prefil-cliente.png',
+    imagen: './img/galeria/perfil-cliente.png',
   },
   {
     usuario: 'Luis R.',
     comentario: 'Atención excelente y sabor inigualable.',
-    imagen: './img/galeria/prefil-cliente.png',
+    imagen: './img/galeria/perfil-cliente.png',
   },
 ])
 
@@ -110,3 +155,16 @@ const imagenes = ref([
   './img/galeria/elotes3.jpg',
 ])
 </script>
+
+<style scoped>
+.opinion-card {
+  text-align: center;
+  padding: 1rem;
+}
+.reel-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+</style>
